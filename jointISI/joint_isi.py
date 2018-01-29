@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import dot, abs, max, sum, zeros, identity
 
-def joint_disi(W, A) :
+def joint_disi(W, A, Wht) :
     # W.shape   = N,N,K,P
     # A.shape   = M,N,K,P
     # Wht.shape = N,M,K,P or N,M if only a single wht for every matrix
